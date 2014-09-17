@@ -18,6 +18,7 @@
       </h1>
       <a href='https://cdn.rawgit.com/deloreanjs/delorean/master/dist/delorean.min.js' class='button'>Get DeLorean.js</a>
       <a href='https://github.com/deloreanjs/delorean' class='button'>View on GitHub</a>
+      <a href='https://github.com/deloreanjs/delorean/blob/master/docs/tutorial.md' class='button'>Tutorial</a>
     </div>
     <a href='#first-look' class='docs-link'>docs & examples</a>
   </section>
@@ -27,11 +28,12 @@
       <h6>DeLorean is a tiny Flux pattern implementation.</h6>
       <ul>
         <li>Unidirectional data flow, it makes your app logic simpler than MVC,</li>
-        <li>Automatically listens data changes and keeps your data updated,</li>
-        <li>Makes data more consistent in your whole application,</li>
+        <li>Automatically listens to data changes and keeps your data updated,</li>
+        <li>Makes data more consistent across your whole application,</li>
         <li>It's framework agnostic, completely. There's no view framework dependency.</li>
-        <li>Too small, just 4K gzipped.</li>
+        <li>Very small, just 4K gzipped.</li>
         <li>Built-in React.js integration, easy to use with Flight.js and Ractive.js and probably all others.</li>
+        <li>Improve your UI/data consistency using rollbacks.</li>
       </ul>
     </article>
     <article>
@@ -94,7 +96,7 @@ var Dispatcher = Flux.createDispatcher({
 
 /*
  * Action Creators are simple controllers. They are simple functions.
- *  They talk to dispatchers. They are not required.
+ * They talk to dispatchers. They are not required.
  */
 var Actions = {
   setData: function (data) {
@@ -143,7 +145,7 @@ open index.html</code>
   <section id='nameAndLicence'>
     <article>
       <h2>Name</h2>
-      <p class='big'>The <strong>flux capacitor</strong> was the core component of Doctor Emmett Brown's time traveling <strong>DeLorean time machine</strong></p>
+      <p class='big'>The <strong>flux capacitor</strong> was the core component of Doctor Emmett Brown's <strong>DeLorean time machine</strong></p>
     </article>
     <article>
       <h2>License</h2>
