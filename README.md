@@ -1,3 +1,5 @@
 # DeLorean.js Homepage
 
+[![Join the chat at https://gitter.im/deloreanjs/deloreanjs.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deloreanjs/deloreanjs.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is the homepage of DeLorean framework.
